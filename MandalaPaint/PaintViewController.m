@@ -34,7 +34,6 @@
     if (detailItem != newDetailItem) {
         [detailItem release];
         detailItem = [newDetailItem retain];
-        NSLog(@"bbbbb");
         // Update the view.
         [self configureView];
     }
