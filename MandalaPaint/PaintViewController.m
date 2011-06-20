@@ -51,13 +51,12 @@
 	whiteColor = [[UIColor alloc] initWithRed:1.0 green:1.0 blue:1.0 alpha:1.0];
 	greenColor = [[UIColor alloc] initWithRed:0.0 green:0.75 blue:0.3 alpha:1.0];
 	wineColor = [[UIColor alloc] initWithRed:0.5 green:0.0 blue:0.0 alpha:1.0];
-    NSLog(@"aaaaa");
     // Update the user interface for the detail item.
     selectURL = self.detailItem;
     
     UIImage *image = [UIImage imageWithContentsOfFile:[self selectURL]];
 	[paintedView setImage:image];
-    [paintedView reloadInputViews];
+    
     NSLog(@"painted");
 
     
