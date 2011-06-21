@@ -58,11 +58,6 @@
 	[paintedView setImage:image];
     
     NSLog(@"painted");
-
-    
-    ///////////////////////////////
-    
-	
 	
 
 }
